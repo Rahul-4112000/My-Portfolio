@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.108d6295.css",
+    "main.js": "/My-Portfolio/static/js/main.88ec1ec9.js",
+    "static/media/TodoApp.png": "/My-Portfolio/static/media/TodoApp.0867dfa0c68ff5ca99ea.png",
+    "static/media/Ecommerce.png": "/My-Portfolio/static/media/Ecommerce.69316ea59cd406662427.png",
+    "static/media/RAHUL LAKHVARA.jpeg": "/My-Portfolio/static/media/RAHUL LAKHVARA.2d650e602409a574f707.jpeg",
+    "static/media/Rahul_lakhvara Frontend_developer.pdf": "/My-Portfolio/static/media/Rahul_lakhvara Frontend_developer.a582586ce6afec622d10.pdf",
+    "index.html": "/My-Portfolio/index.html",
+    "main.108d6295.css.map": "/My-Portfolio/static/css/main.108d6295.css.map",
+    "main.88ec1ec9.js.map": "/My-Portfolio/static/js/main.88ec1ec9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.108d6295.css",
+    "static/js/main.88ec1ec9.js"
+  ]
+}
