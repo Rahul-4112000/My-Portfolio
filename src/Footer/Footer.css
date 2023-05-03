@@ -1,0 +1,131 @@
+footer {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    min-height: 70px;
+    padding: 15px;
+    text-align: center;
+}
+
+footer .social-link-list {
+    display: none;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+footer .social-link-list li {
+    padding: 10px;
+}
+
+footer .github-links {
+    color: var(--light-slate);
+    font-family: var(--font-mono);
+    font-size: var(--fz-xxs);
+}
+
+footer a:hover {
+    color: var(--green);
+}
+
+footer .github-links>* {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:1080px) {
+    main {
+        padding: 0 90px;
+    }
+
+    .sidebar.left {
+        left: 20px;
+        right: auto;
+    }
+
+    .sidebar.right {
+        right: 20px;
+        left: auto;
+    }
+}
+
+
+
+@media only screen and (max-width:768px) {
+    header {
+        padding: 0 25px;
+    }
+
+    nav .content {
+        display: none;
+    }
+
+    nav .logo img {
+        width: 40px;
+    }
+
+    .sidebar-content {
+        display: block;
+    }
+
+    main {
+        padding: 0 50px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    ul .project {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    .project:nth-child(odd) .project-content {
+        text-align: left;
+    }
+
+    .project:nth-child(odd) .frontend-tools {
+        justify-content: flex-start;
+    }
+
+    .project:nth-child(odd) .frontend-tools li {
+        margin: 0px 20px 5px 0;
+    }
+
+    .project .project-content-wrapper > h3 {
+        display: none;
+    }
+
+    .profile-wrapper {
+        display: block;
+    }
+
+    .profile-wrapper .profile-image-container {
+        margin: 50px auto 0px;
+    }
+
+    footer .social-link-list {
+        display: flex;
+    }
+
+
+}
+
+@media only screen and (min-width:768px) {
+    .project > h3 {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-height:700px) and (min-width:700px),
+(max-width:360px) {
+    section.intro {
+        height: auto;
+        padding-top: var(--nav-height);
+    }
+}

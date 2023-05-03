@@ -1,0 +1,42 @@
+
+.sidebar {
+    position: fixed;
+    bottom: 0px;
+    z-index: 10;
+    color: var(--light-slate);
+}
+
+.sidebar.left {
+    left: 40px;
+    right: auto;
+}
+
+.social-media-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media-list:after {
+    content: "";
+    display: block;
+    width: 1px ;
+    height: 100px;
+    margin-top: 20px;
+    background-color: var(--light-slate);
+}
+
+.social-media-list li {
+    cursor: pointer;
+}
+
+.social-media-list li a {
+    padding: 10px;
+}
+
+.social-media-list li a:hover {
+    translate: 0 -5px;
+    color: var(--green);
+}
+

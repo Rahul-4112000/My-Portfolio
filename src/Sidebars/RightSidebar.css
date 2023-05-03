@@ -1,0 +1,38 @@
+.sidebar.right {
+    right: 40px;
+    left: auto;
+}
+
+.right .email {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.right .email a {
+    margin: 20px auto;
+    padding: 10px;
+    font-family: var(--font-mono);
+    font-size: var(--fz-xxs);
+    line-height: var(--fz-lg);
+    letter-spacing: 1px;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+
+.right .email::after {
+    content: "";
+    display: block;
+    width: 1px ;
+    height: 100px; 
+    background-color: var(--light-slate);
+}
+
+.right .email a:hover {
+    translate: 0 -5px;
+    color: var(--green);
+}
+
