@@ -12,7 +12,7 @@ function Footer() {
       </ul>
       <div className='github-links'>
         <div>
-          <a href='#github'>Built by Rahul Lakhvara</a>
+          <a target='_blank' rel='noreferrer' href='https://github.com/Rahul-4112000/My-Portfolio'>Built by Rahul Lakhvara</a>
         </div>
         <div>
           <a target='blank' href='https://github.com/bchiang7/v4'>Inspired by Brittany Chiang</a>

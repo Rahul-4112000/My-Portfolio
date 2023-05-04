@@ -15,7 +15,7 @@ function Projects() {
             <div className='project-content-wrapper'>
               <h3>Todo</h3>
               <div className='project-description'>
-                <p>A minimal web app  to maintain our day-to-day tasks or list of everything that we have to do. Select theme, creat,  edit, delete task and orgnize tasks accoding to priority or alphabetic manner too.</p>
+                <p>A minimal web app  to maintain our day-to-day tasks or list of everything that we have to do. User can select a theme, create, edit, delete, and organize tasks alphabetically or based on priority.</p>
               </div>
             </div>
             <ul className='frontend-tools'>
